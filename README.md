@@ -14,14 +14,16 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+# Dynamic Form Tabs (Angular)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A reusable, scalable Angular application that dynamically generates reactive forms using JSON schema, with tab-based form navigation and independent state management.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📌 Features
+- Dynamic Form Rendering** — Forms built from JSON schema
+- Reactive Forms** — Fully uses Angular’s `FormBuilder`, `FormGroup`, `Validators`
+- Tabbed Interface** — Each tab holds a different form schema
+- Independent Form State Management** — Stores form data per tab using `BehaviorSubject`
+- Change Detection Optimization** — All components use `ChangeDetectionStrategy.OnPush`
+- LocalStorage Persistence** — Auto-saves form data between reloads
+- Snackbar Notifications** — Toast message on form submission
